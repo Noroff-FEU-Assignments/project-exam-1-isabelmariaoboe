@@ -1,0 +1,277 @@
+html {
+  max-width: 750px;
+  margin: auto;
+}
+
+header {
+
+  color:#40403f
+}
+/* The navbar */
+nav,
+#hamburger-menu {
+  display: none;
+}
+
+.topnav {
+  text-align: right;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #40403f;
+  padding: 10px 10px 10px 60px;
+  display: block;
+  font-family: "Roboto", Verdana, Tahoma, sans-serif;
+  font-size: 2em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.current {
+  font-weight: bold;
+}
+
+.hamburger-label {
+  float: right;
+  color: #40403f;
+  padding: 30px;
+  font-size: 1.5em;
+  display: block;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+/* slider */
+.carousel {
+  position: relative;
+  box-shadow: 0px 1px 6px #40403f;
+  margin-top: 26px;
+}
+
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
+
+.carousel-item {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.carousel-control {
+  background: #40403f;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+
+.carousel-control.prev {
+  left: 2%;
+}
+
+.carousel-control.next {
+  right: 2%;
+}
+
+.carousel-control:hover {
+  background: #40403f;
+  color: grey;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block;
+}
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.carousel-bullet {
+  color: #fff;
+  border: #40403f;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+}
+
+.carousel-bullet:hover {
+  color: #aaaaaa;
+}
+
+
+#title {
+  width: 100%;
+  position: absolute;
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 27px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Open Sans', sans-serif;
+  z-index: 9999;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+/* form */
+.createAccount {
+  max-width: 500px;
+  margin: auto;
+}
+.containerNew {
+  padding: 16px;
+  max-width: 750px;
+  margin: auto;
+  font-family: "Roboto", Verdana, Tahoma, sans-serif;
+}
+.radio {
+  display: inline-block;
+  font-family: "Roboto", Verdana, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #40403f;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+button {
+  border: 2px solid transparent;
+  background: #e5be1a;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  border-radius: 3px;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+
+@-webkit-keyframes check {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+@keyframes check {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    nav {
+      display: inline-block;
+    }
+  
+    .hamburger-label {
+      display: none;
+    }
+  
+    ul {
+      display: flex;
+    }
+  
+    li {
+      display: inline-block;
+    }
+  }

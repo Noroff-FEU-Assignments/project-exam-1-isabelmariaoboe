@@ -254,6 +254,27 @@ button {
 }
 
 
+/* post */
+
+.details-title {
+  margin-bottom: 0.7em;
+}
+
+.details-image {
+  margin-bottom: 1em;
+  height: 290px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.details-genres {
+  margin-bottom: 1em;
+}
+
+
+
+
 
 
 

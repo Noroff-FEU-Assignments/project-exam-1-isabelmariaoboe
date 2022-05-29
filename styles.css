@@ -5,8 +5,23 @@ html {
 
 header {
 
-  color:#40403f
+  color:black;
 }
+
+img.logo {
+  width: 30%;
+}
+
+h1, h2, h3, p {
+  font-family: "Roboto", Verdana, Tahoma, sans-serif;
+}
+
+p {
+  font-size: 1.25em;
+  line-height:30px;
+}
+
+
 /* The navbar */
 nav,
 #hamburger-menu {
@@ -25,9 +40,9 @@ nav li {
   display: block;
 }
 
-nav a {
+nav a, .postTitle {
   text-decoration: none;
-  color: #40403f;
+  color: black;
   padding: 10px 10px 10px 60px;
   display: block;
   font-family: "Roboto", Verdana, Tahoma, sans-serif;
@@ -44,7 +59,7 @@ nav a:hover {
 
 .hamburger-label {
   float: right;
-  color: #40403f;
+  color: black;
   padding: 30px;
   font-size: 1.5em;
   display: block;
@@ -167,9 +182,15 @@ nav a:hover {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
 
+/* blog */
+ .pagination {
+   text-align: center;
+ }
+
+
 /* form */
-.createAccount {
-  max-width: 500px;
+.contactUs {
+  max-width: 750px;
   margin: auto;
 }
 .containerNew {
@@ -178,15 +199,9 @@ nav a:hover {
   margin: auto;
   font-family: "Roboto", Verdana, Tahoma, sans-serif;
 }
-.radio {
-  display: inline-block;
-  font-family: "Roboto", Verdana, Tahoma, sans-serif;
-  font-weight: bold;
-  color: #40403f;
-}
+
 
 input[type="text"],
-input[type="password"],
 textarea {
   width: 100%;
   padding: 15px;
@@ -196,14 +211,19 @@ textarea {
   background: #f1f1f1;
 }
 
-input[type="text"]:focus,
-input[type="password"]:focus {
+input[type="text"]:focus {
   background-color: #ddd;
   outline: none;
 }
 
 input:invalid {
   border: 2px dashed red;
+}
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 2px;
 }
 
 hr {
@@ -218,11 +238,11 @@ hr {
 
 button {
   border: 2px solid transparent;
-  background: #e5be1a;
+  background: #fcbc5c;
   color: #ffffff;
   font-size: 16px;
-  line-height: 25px;
-  padding: 10px 0;
+  line-height: 15px;
+  padding: 5px 0;
   text-decoration: none;
   border-radius: 3px;
   display: block;
@@ -255,6 +275,10 @@ button {
 
 
 /* post */
+
+.postTitle{
+  color: #fcbc5c;
+}
 
 .details-title {
   margin-bottom: 0.7em;

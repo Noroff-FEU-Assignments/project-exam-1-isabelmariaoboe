@@ -1,5 +1,40 @@
 ## Project Exam 1
 
+[link to the website](https://stellar-llama-0c997b.netlify.app/index.html)
+
+This is a blog based on the episodes from first four chapters of the book of the Acts of the Apostles.
+Acts of the Apostles, abbreviation Acts, fifth book of the New Testament, a valuable history of the early Christian church. Acts was written in Greek, presumably by St. Luke the Evangelist. The Gospel According to Luke concludes where Acts begins, namely, with Christ’s Ascension into heaven. Acts was apparently written in Rome, perhaps between 70 and 90 CE, though some think a slightly earlier date is also possible. 
+
+## Description
+
+- This is a blog site with 4 pages: home, about, blog and contact + one more etra page for the specific blog post selected.
+- The website has been coded using HTML5, CSS3, JavaScript and using WordPress as a headless CMS.
+- At the home page the user finds a slider/carousel displaying the latest posts with arrows  allowing the user to see the previous or the next post.
+- At the about page the user finds a short description about this website and where it comes from.
+- At the blog, the titles and the excerpts of 10 blogs and at the bottom of the page the user can click on the number 2 to load the net posts.
+- In order to see mor about a concrete post, the user clicks on the post and it opens another html page displaying the title, a picture and the full article.
+- At the contact page there is a contact form to sen a message using JavaScript validation.
+
+## Built With
+
+Tech used to build the project:
+
+- HTML5
+- CSS3
+- JavaScript
+- [WordPress](https://www.wordpress.org/)
+
+## Contact
+
+[My LinkedIn page](https://www.linkedin.com/in/isabel-mar%C3%ADa-guner-velasco-b25607190/)
+
+
+
+
+
+
+### Project exam info/brief:
+
 ## Goal
 
 To put into practice the skills learned over your first year of studies.
